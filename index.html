@@ -24,6 +24,15 @@
             Hiện tại mình là một học sinh có đam mê với âm nhạc và <br> chơi game, hiện tại còn đang học html, css.
         </p>
     </div>
+    <div>
+        <img id ="avatar" src="pro.png">
+        <h3 id="nhac">
+            Một chút nhạc để bạn thưởng thức~
+        </h3>
+        <audio controls autoplay">
+            <source src="vaoha.mp3" type="audio/mpeg">
+        </audio>
+    </div>
 
     <div>
         <h2>
@@ -60,7 +69,7 @@
         <p>
             Chỉ một phim duy nhất: Koe No Katachi (Hay còn gọi là The Shape Of Voice)
         </p>
-        <h3>
+        <h3 id="lienhe">
             Liên hệ mình tại:
         </h3>
         <p id="bottom">
@@ -77,12 +86,10 @@
             nhé, cảm ơn các bạn vì đã đọc!
         </p>
     </div>
-    <img id ="avatar" src="pro.png">
-    <audio controls autoplay">
-        <source src="vaoha.mp3" type="audio/mpeg">
-    </audio>
-    <h3 id="nhac">
-        Một chút nhạc để bạn thưởng thức~
-    </h3>
 </body>
 </html>
+
+@media only screen and (max-width 48.1875em)
+body {
+    flex-direction: column-reverse;
+}
